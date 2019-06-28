@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require '../card'
+require_relative '../card'
 
 class CardTest < Minitest::Test
   def test_create_card

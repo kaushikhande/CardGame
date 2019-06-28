@@ -15,6 +15,6 @@ class DeckCards
   end
 
   def shuffle_cards
-    @cards = @cards.shuffle
+    @deck_cards = @deck_cards.shuffle
   end
 end
